@@ -2,7 +2,7 @@
   <div
     ref="magneticElement"
       class="fixed top-16 left-4 sm:top-20 sm:left-6 md:top-24 md:left-8 z-50 cursor-pointer"
-    @click="downloadCV"
+    @click="openCV"
     @mouseenter="showTooltip = true"
     @mouseleave="showTooltip = false"
   >
@@ -107,14 +107,8 @@ const animate = () => {
   animationId = requestAnimationFrame(animate);
 };
 
-const downloadCV = () => {
-  const link = document.createElement('a');
-  link.href = '/orhan-ekinci-cv.pdf';
-  link.download = 'orhan-ekinci-cv.pdf';
-  link.target = '_blank';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+const openCV = () => {
+  window.open('/orhan-ekinci-cv.pdf', '_blank');
 };
 
 onMounted(() => {

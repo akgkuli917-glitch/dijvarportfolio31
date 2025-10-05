@@ -41,7 +41,7 @@
         :key="`marquee-item-${_}`"
         class="sm:heading-1 flex w-full items-center text-3xl font-bold text-nowrap whitespace-nowrap max-sm:mx-6"
       >
-        Computer Vision & Machine Learning Engineer
+        AI Engineer
         <div class="mx-2 inline-block scale-50 sm:scale-75">
           <svg
             class="ms-10 me-10"

@@ -80,7 +80,7 @@
   import { useWindowSize } from '@vueuse/core';
 
   import { Navbar } from './components/common';
-  import { lenis, raf } from './main';
+  import { lenis } from './main';
   const { width, height } = useWindowSize();
   const noise: Ref<HTMLElement | null> = ref(null);
 
@@ -105,10 +105,6 @@
     document.body.classList.add('stop-scrolling');
     // TODO:
     // window.scrollTo(0, 0);
-
-    setTimeout(() => {
-      requestAnimationFrame(raf);
-    }, 2000);
   });
 </script>
 

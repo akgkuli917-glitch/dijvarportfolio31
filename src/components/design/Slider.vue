@@ -263,16 +263,16 @@
       quote:
         'Collaborating with Orhan on multiple projects has been a true pleasure. His exceptional skills, attention to detail, and commitment to quality consistently made him an invaluable asset to the team.',
       author: 'Bülent Siyah',
-      position: 'Full Stack Developer',
+      position: 'AI Engineer',
       tags: ['Python', 'Machine Learning', 'Deep Learning', 'NLP'],
       profile: mohammad,
     },
     {
       quote:
-        'Collaborating with Orhan was fantastic. His expertise, dedication, and creative approach made the project run smoothly and truly stand out. Grateful for the teamwork!',
-      author: 'Cahit Barkın Özer',
-      position: 'AI Engineer',
-      tags: ['Computer Vision', 'Neural Networks', 'MLOps', 'Data Science'],
+        'Working with Orhan has been an incredible experience. His deep understanding of AI technologies and innovative approach to problem-solving consistently delivers exceptional results. His dedication to excellence and collaborative spirit make him an outstanding partner.',
+      author: 'İnan Çolak',
+      position: 'Mechatronics Engineer & MSc Student in Artificial Intelligence',
+      tags: ['Mechatronics', 'Artificial Intelligence', 'Machine Learning', 'Robotics'],
       profile: esmail,
     },
   ];

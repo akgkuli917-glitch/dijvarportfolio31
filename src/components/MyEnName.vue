@@ -1,6 +1,6 @@
 <template>
-  <div id="svg-my-en-name" class="relative z-0 w-full text-flax-smoke-900 overflow-hidden overflow-x-clip">
-    <h1 class="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-[10rem] xl:text-[12rem] 2xl:text-[14rem] font-bold tracking-tight leading-none whitespace-nowrap">
+  <div id="svg-my-en-name" class="relative z-10 w-full text-flax-smoke-900 overflow-hidden">
+    <h1 class="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl 3xl:text-9xl font-bold tracking-tight leading-none whitespace-nowrap break-words max-w-full">
       <span class="inline-block translate-y-full">O</span>
       <span class="inline-block translate-y-full">R</span>
       <span class="inline-block translate-y-full">H</span>

@@ -40,6 +40,7 @@
   </div>
 
   <Cursor />
+  <MagneticCV />
   <Navbar @isLocked="LockeScroll" />
 
   <main class="relative min-h-full">
@@ -76,6 +77,7 @@
     SamsungError,
     Footer,
     Cursor,
+    MagneticCV,
   } from '@/components/design';
   import { useWindowSize } from '@vueuse/core';
 

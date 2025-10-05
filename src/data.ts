@@ -63,6 +63,10 @@ const resourceLinks = [
     label: 'Papers With Code',
     url: 'https://paperswithcode.com',
   },
+  {
+    label: 'DeepLearning.AI',
+    url: 'https://www.deeplearning.ai/',
+  },
 ];
 
 const heroText =

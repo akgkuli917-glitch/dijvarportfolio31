@@ -7,6 +7,7 @@ import SamsungError from './SamsungError.vue';
 import Marquee from './Marquee.vue';
 import Slider from './Slider.vue';
 import Footer from './Footer.vue';
+import MagneticCV from './MagneticCV.vue';
 
 import Cursor from './Cursor.vue';
 
@@ -19,5 +20,6 @@ export {
   Marquee,
   Slider,
   Footer,
+  MagneticCV,
   Cursor,
 };

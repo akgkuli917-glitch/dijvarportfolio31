@@ -35,6 +35,12 @@
   --breakpoint-2xl: 1440px;
   --breakpoint-3xl: 1920px;
   --breakpoint-4xl: 2560px;
+  
+  /* Responsive text sizes */
+  --text-responsive-sm: clamp(1.5rem, 3vw, 3rem);
+  --text-responsive-md: clamp(2rem, 4vw, 5rem);
+  --text-responsive-lg: clamp(3rem, 6vw, 8rem);
+  --text-responsive-xl: clamp(4rem, 8vw, 12rem);
 
   /* Max Width */
   --max-width-8xl: 1920px;
@@ -84,6 +90,26 @@
 
 @utility hide-on-mobile {
   @apply hidden sm:block;
+}
+
+@utility responsive-text {
+  font-size: clamp(1.5rem, 4vw, 8rem);
+}
+
+@utility responsive-text-sm {
+  font-size: var(--text-responsive-sm);
+}
+
+@utility responsive-text-md {
+  font-size: var(--text-responsive-md);
+}
+
+@utility responsive-text-lg {
+  font-size: var(--text-responsive-lg);
+}
+
+@utility responsive-text-xl {
+  font-size: var(--text-responsive-xl);
 }
 
 @utility only-on-mobile {

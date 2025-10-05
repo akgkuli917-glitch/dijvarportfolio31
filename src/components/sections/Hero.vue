@@ -5,16 +5,18 @@
       class="sticky top-0 z-0 flex min-h-svh w-full items-end pb-[clamp(2.25rem,2.1786rem_+_0.3571vi,2.5rem)]"
     >
       <div class="relative flex w-full flex-col items-center">
-        <div class="w-full items-end overflow-clip">
-          <div class="flex w-full items-start gap-10">
-            <MyName />
-            <Star id="star" class="hide-on-mobile translate-x-full" />
+        <div class="w-full items-end overflow-clip mb-8 sm:mb-12 lg:mb-16">
+          <div class="flex w-full items-start justify-between gap-4 sm:gap-6 lg:gap-10">
+            <div class="flex-1 min-w-0">
+              <MyName />
+            </div>
+            <Star id="star" class="hide-on-mobile flex-shrink-0" />
           </div>
         </div>
 
-        <div class="lg:column-gap spacing-t grid w-full grid-cols-12">
+        <div class="lg:column-gap spacing-t grid w-full grid-cols-12 gap-4 sm:gap-6 lg:gap-8">
           <div
-            class="col-span-full flex flex-col items-start gap-14 sm:col-span-4"
+            class="col-span-full flex flex-col items-start gap-8 sm:gap-10 lg:gap-14 sm:col-span-4"
           >
             <div class="overflow-hidden">
               <svg
@@ -62,7 +64,7 @@
 
           <div
             id="profile-container"
-            class="relative col-span-4 mt-10 h-[20vh] max-w-lg flex-col rounded-lg select-none sm:mt-0 sm:h-full md:flex md:h-[50vh]"
+            class="relative col-span-4 mt-8 h-[20vh] max-w-lg flex-col rounded-lg select-none sm:mt-0 sm:h-full md:flex md:h-[40vh] lg:h-[45vh]"
           >
             <div class="overlay bg-flax-smoke-50 absolute inset-0 z-2"></div>
             <img
@@ -79,7 +81,7 @@
           >
             <div
               id="available-for-work"
-              class="absolute right-0 bottom-0 flex translate-y-full flex-col items-end"
+              class="absolute right-0 bottom-0 flex translate-y-full flex-col items-end mt-4 sm:mt-6 lg:mt-8"
             >
               <p
                 class="3xl:text-base block leading-snug font-medium -tracking-tight uppercase"

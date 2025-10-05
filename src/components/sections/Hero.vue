@@ -6,10 +6,7 @@
     >
       <div class="relative flex w-full flex-col items-center">
         <div class="w-full items-end overflow-clip mb-8 sm:mb-12 lg:mb-16">
-          <div class="flex w-full items-start justify-between gap-4 sm:gap-6 lg:gap-10">
-            <div class="flex-1 min-w-0">
-              <MyName />
-            </div>
+          <div class="flex w-full items-start justify-end gap-4 sm:gap-6 lg:gap-10">
             <Star id="star" class="hide-on-mobile flex-shrink-0" />
           </div>
         </div>
@@ -104,7 +101,7 @@
 
 <script setup lang="ts">
   import { onBeforeMount, ref } from 'vue';
-  import { MyName, Star } from '../design';
+  import { Star } from '../design';
   import { Button } from '@/components/common';
   import { profile } from '@/assets/images';
   import { textSplitterIntoChar } from '@/functions';

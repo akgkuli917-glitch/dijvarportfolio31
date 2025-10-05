@@ -16,7 +16,9 @@ function raf(time: number) {
 const app = createApp(App);
 app.mount('#app');
 
-// Start the animation loop
-requestAnimationFrame(raf);
+// Start the animation loop after a short delay to ensure DOM is ready
+setTimeout(() => {
+  requestAnimationFrame(raf);
+}, 100);
 
 export { raf, lenis };

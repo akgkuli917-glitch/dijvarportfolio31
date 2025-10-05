@@ -84,7 +84,7 @@
   const { width, height } = useWindowSize();
   const noise: Ref<HTMLElement | null> = ref(null);
 
-  const isSamsungBrowser = /samsung/i.test(navigator.userAgent);
+  const isSamsungBrowser = typeof navigator !== 'undefined' && /samsung/i.test(navigator.userAgent);
 
   const LockeScroll = (isLocked: boolean) => {
     if (isLocked) {

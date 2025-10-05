@@ -70,7 +70,7 @@ const resourceLinks = [
 ];
 
 const heroText =
-  'A freelance full-stack developer, making good shit since 2023, hiding bad shit since 2023.';
+  'A freelance AI developer, making good shit since 2023, hiding bad shit since 2023.';
 
 const locationPlace = `41°00'49.0"N 28°58'34.0"E`;
 const locationCountry = 'Turkey, Istanbul';

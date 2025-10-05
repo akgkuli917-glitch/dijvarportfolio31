@@ -180,7 +180,7 @@
     {
       name: 'CBT',
       category: 'AI-Driven Cybersecurity – Threat Detection & Analysis Tool',
-      tags: ['AI', 'Cybersecurity', 'Threat Detection'],
+      tags: ['AI', 'Cybersecurity', 'Threat Detection', 'LLM', 'Agents'],
       videoSrc: work3,
       imageBg: workBg3,
       url: 'https://github.com/dijwar/axon',
@@ -199,7 +199,7 @@
     {
       name: 'Interactive Avatar',
       category: 'Voice & Video Enabled',
-      tags: ['AI', 'Computer Vision', 'Voice AI'],
+      tags: ['Interactive Avatar', 'Chatbots', 'Agents', 'LLM'],
       videoSrc: work1,
       imageBg: workBg1,
       url: 'https://github.com/dijwar/interactive-avatar',

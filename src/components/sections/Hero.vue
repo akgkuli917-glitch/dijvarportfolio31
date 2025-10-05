@@ -108,7 +108,7 @@
   // import { dataCalConfig, dataCalLink, dataCalNamespace } from '@/data';
 
   const whoAmI = ref(
-    'A freelance full-stack and AI developer with global experience, I craft end-to-end digital solutions that merge intelligent automation with seamless user experiences. From building scalable web and mobile applications to deploying production-ready LLMs, chatbots, and vision-based AI systems, I bring cutting-edge technology to real-world challenges across industries.',
+    'A freelance AI developer with global experience, I craft end-to-end digital solutions that merge intelligent automation with seamless user experiences. From building scalable web and mobile applications to deploying production-ready LLMs, chatbots, and vision-based AI systems, I bring cutting-edge technology to real-world challenges across industries.',
   );
 
   onBeforeMount(() => {

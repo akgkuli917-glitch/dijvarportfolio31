@@ -57,7 +57,7 @@
           <p class="heading-6 font-fancy w-full text-balance sm:max-w-[40ch]">
             Every project I take on is about blending intelligence with usability—making tech not just functional, but enjoyable. I love seeing users interact with something I built and thinking, "Wow, this just works." <br /><br />
             When I'm not coding AI or experimenting with models, you'll find me
-            sharing my freelance journey on <i>&Xopf;</i>, vibing to classic music, or exploring creative ways to push the boundaries of AI.
+            vibing to classic music or exploring creative ways to push the boundaries of AI.
           </p>
         </div>
       </div>
